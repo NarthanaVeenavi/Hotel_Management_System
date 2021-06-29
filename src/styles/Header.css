@@ -1,0 +1,125 @@
+#header{
+    background-color: rgba(248, 245, 245, 0);
+}
+
+#hotel_name{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    margin-left: 0.2cm;
+    margin-top: -0.2cm;
+}
+
+#logo{
+    width: 1.3cm;
+    height: 1.3cm;
+    margin-left: 1.7cm;
+}
+
+#navbarNavDropdown{
+    margin-left: 1cm;
+}
+
+#home,#aboutus,#foods,#rooms,#contactus,#blog{
+    color: white;
+}
+
+#book_now{
+    border: 1.3px solid white;
+    padding: 11px 18px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 11.5cm;
+}
+
+#book_now a{
+    color:white;
+    text-decoration: none;
+}
+
+#book_now a:hover{
+    color:rgb(34, 33, 33);
+    text-decoration: none;
+}
+
+@keyframes text1
+{
+10%{opacity: 1;}
+40%{opacity: 0;}
+}
+
+@-webkit-keyframes text1
+{
+10%{opacity:1;}
+40%{opacity:0;}
+}
+
+@keyframes text2
+{
+30%{opacity: 0;}
+60%{opacity:1;}
+}
+
+@-webkit-keyframes text2
+{
+30%{opacity: 0;}
+60%{opacity:1;}
+}
+
+@keyframes banner
+{
+10%{background-color: rgba(223, 197, 154, 0.281);}
+40%{background-color: #da99c18e;}
+80%{background-color: rgba(149, 201, 149, 0.61);}
+}
+
+.banner
+{
+width: 100%;
+height: 18cm;
+background: url('../images/image1.jpg');
+background-size: 100% 100%;
+margin-top: -2cm;
+position: relative;
+overflow: hidden;
+z-index: -1;
+}
+
+.text1,.text2
+{
+position: absolute;
+width: 100%;
+height: 100%;
+line-height: 135px;
+text-align: center;
+font-size: 70px;
+color: #fff;
+opacity: 0;
+margin-top: 4cm;
+font-family: 'Times New Roman';
+}
+
+#animated-text{
+    margin-top:-1.7cm;
+}
+
+.text1
+{
+animation : text1 20s infinite;
+-webkit-animation : text1 20s infinite;
+}
+
+.text2
+{
+animation : text2 20s infinite;
+-webkit-animation : text2 20s infinite;
+}
+
+.animated
+{
+opacity: 0.8;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #88a7c563;
+animation: banner 6s infinite;
+-webkit-animation: banner 6s infinite;
+}
