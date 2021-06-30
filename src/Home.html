@@ -5,6 +5,7 @@
         <link rel = "icon" href = "../src/images/logo.png" type = "image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../src/styles/Header.css" type="text/css">
+        <link rel="stylesheet" href="../src/styles/Home.css" type="text/css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -50,12 +51,87 @@
             <button id="book_now" type="button"><a href="#">Book Now</a></button>
         </nav>
 
+        <!-- animated image and texts -->
         <div class="banner">
             <div class="animated">
-            <div class="text1">Welcome To Our Luxury Rooms <p id="animated-text">Discover our world's #1 Luxury Room For VIP.</p></div>
-            <div class="text2">Taste Delecious Foods</div>
+              <div class="text1">Welcome To Our Luxury Rooms <p id="animated-text">Discover our world's #1 Luxury Room For VIP.</p></div>
+              <div class="text2">Taste Delecious Foods</div>
             </div>
         </div>
+        <button id="book_now2" type="button"><a href="#">BOOK NOW</a></button>
+
+        <!-- description about hotel -->
+        <div class="hotel-description">
+          <p id="topic1-des">STAY WITH OUR LUXURY ROOMS</p>
+          <p id="topic2-des">Stay and Enjoy</p>
+          <p id="para-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus illo similique natus, a recusandae? Dolorum, unde a quibusdam est? Corporis deleniti obcaecati quibusdam inventore fuga eveniet! Qui delectus tempore amet!</p>
+          <button id="more-about" type="button"><a href="#">MORE ABOUT US</a></button>
+        </div>
+
+        <!-- image galler-slideshow -->
+
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img class="firstimage" src="../src/images/hotel2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img class="firstimage" src="../src/images/hall2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img class="firstimage" src="../src/images/swimmingpool.jpg" style="width:100%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img class="firstimage" src="../src/images/room1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img class="firstimage" src="../src/images/weddinghall1.jpg" style="width:100%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img class="firstimage" src="../src/images/swimmingpool2.jpeg" style="width:100%">
+          </div>
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="../src/images/hotel2.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../src/images/hall2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../src/images/swimmingpool.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../src/images/room1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../src/images/weddinghall1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>    
+            <div class="column">
+              <img class="demo cursor" src="../src/images/swimmingpool2.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../src/js/Home.js"></script>
+
+        <div class="">hdhdh</div>
 
     </body>
 </html>

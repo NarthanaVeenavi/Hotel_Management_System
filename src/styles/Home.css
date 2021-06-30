@@ -1,0 +1,240 @@
+@keyframes text1
+{
+10%{opacity: 1;}
+40%{opacity: 0;}
+}
+
+@-webkit-keyframes text1
+{
+10%{opacity:1;}
+40%{opacity:0;}
+}
+
+@keyframes text2
+{
+30%{opacity: 0;}
+60%{opacity:1;}
+}
+
+@-webkit-keyframes text2
+{
+30%{opacity: 0;}
+60%{opacity:1;}
+}
+
+@keyframes banner
+{
+10%{background-color: rgba(223, 197, 154, 0.281);}
+40%{background-color: #da99c18e;}
+80%{background-color: rgba(149, 201, 149, 0.61);}
+}
+
+.banner
+{
+width: 100%;
+height: 18cm;
+background: url('../images/image1.jpg');
+background-size: 100% 100%;
+margin-top: -2cm;
+position: relative;
+overflow: hidden;
+z-index: -1;
+}
+
+.text1,.text2
+{
+position: absolute;
+width: 100%;
+height: 100%;
+line-height: 135px;
+text-align: center;
+font-size: 70px;
+color: #fff;
+opacity: 0;
+margin-top: 4cm;
+font-family: 'Times New Roman';
+}
+
+#animated-text{
+    margin-top:-1.7cm;
+}
+
+.text1
+{
+animation : text1 20s infinite;
+-webkit-animation : text1 20s infinite;
+}
+
+.text2
+{
+animation : text2 20s infinite;
+-webkit-animation : text2 20s infinite;
+}
+
+.animated
+{
+opacity: 0.8;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #88a7c563;
+animation: banner 6s infinite;
+-webkit-animation: banner 6s infinite;
+}
+
+#book_now2{
+    border: 1.3px solid white;
+    padding: 13px 27px;
+    background-color: rgba(226, 184, 136, 0.952);
+    margin-top: -7cm;
+    margin-left: 19cm;
+    position: absolute;
+}
+
+#book_now2 a{
+    color:white;
+    text-decoration: none;
+}
+
+#book_now2 a:hover{
+    color:rgb(41, 38, 38);
+    text-decoration: none;
+}
+
+.hotel-description{
+    width: 12cm;
+    height:12cm;
+    margin-left: 2cm;
+    margin-top: 1.5cm;
+}
+
+#topic1-des{
+    font-size: 12px;
+    margin-left: 2.7cm;
+    font-weight: bold;
+    color:rgba(61, 59, 57, 0.692)
+}
+
+#topic2-des{
+    font-size: 50px;
+    margin-left: 1cm;
+    color:rgba(22, 22, 21, 0.692)
+}
+
+#more-about{
+    padding: 11px 13px;
+    background-color: rgba(226, 184, 136, 0.952);
+    border: 1px white solid;
+    margin-left: 3.1cm;
+}
+
+#more-about a{
+    color:white;
+    text-decoration: none;
+}
+
+#more-about a:hover{
+    color:rgb(41, 38, 38);
+    text-decoration: none;
+}
+
+#para-des{
+    color:rgba(61, 59, 57, 0.692)
+}
+
+.container {
+    position: relative;
+    width: 21cm;
+    margin-left: 17cm;
+    margin-top: -12.5cm;
+    opacity: 0.7;
+}
+  
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+    
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+    
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+    
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: -2cm;
+}
+    
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+    
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+    
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+    
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+    
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+    vertical-align: middle;
+    height: 100%;
+}
+    
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.firstimage{
+    vertical-align: middle;
+}
+.row{
+    margin-left: 0cm;
+    width: 100%;
+}
